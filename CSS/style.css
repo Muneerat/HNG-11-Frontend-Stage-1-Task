@@ -10,16 +10,18 @@ body {
 .main{
     display: flex;
     margin: 20px 0 0;
-    width: 100%;
+    width: fit-content;
     justify-content: center;
     vertical-align: middle;
     align-items: center;
+    
 }
 header {
     text-align: center;
     margin: 20px 0 0;
     background-color: white;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: fit-content;
 }
 main {
     max-width: 800px;
@@ -27,12 +29,14 @@ main {
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     margin-bottom: 20px;
+    width: fit-content;
 }
 section {
     margin-bottom: 20px;
 }
 h1, h2, h3 {
     color: #333;
+    background-color: #fff;
 }
 ul {
     list-style: none;
