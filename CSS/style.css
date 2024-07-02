@@ -22,10 +22,11 @@ header {
     background-color: white;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     width: fit-content;
+    padding: 10px 0;
 }
 main {
     max-width: 800px;
-    padding: 20px;
+    padding: 30px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     margin-bottom: 20px;
